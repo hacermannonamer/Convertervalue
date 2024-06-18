@@ -5,7 +5,7 @@ import dj_database_url
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-paj^d5$qf9#1cr_9ltg3398mbn4f*u437u9!ki6k3dlt*htf57'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mysite-eyjb.onrender.com']
 
 INSTALLED_APPS = [
     'convert.apps.ConvertConfig',
